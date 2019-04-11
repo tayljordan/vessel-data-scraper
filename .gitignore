@@ -1,5 +1,4 @@
 .vscode/
 vessel_data_analysis/
-vessel-images/
-vessel-images-cropped/
+# vessel-images/
 # poppler-0.68.0/

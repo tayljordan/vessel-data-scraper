@@ -8,7 +8,7 @@ import requests
 
 # Debug settings
 download = True
-convert_pdf = False
+convert_pdf = True
 debug = True
 
 #
@@ -91,7 +91,8 @@ if convert_pdf:
                                thread_count=2,
                                fmt='jpeg',
                                output_file='vessel',
-                               output_folder=images_folder
+                               output_folder=images_folder,
+                               poppler_path=poppler_path
                                )
 
 
