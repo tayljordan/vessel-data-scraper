@@ -7,7 +7,7 @@ The included version is *poppler-0.68.0*.
 
 Once converted, image files are processed using *pillow* to crop individual regions. These regions are processed using *Tesseract*, which is not included, and the data is saved onto a txt file.
 
-## Requeriments
+## Requirements
 
 ### Python Packages
 * pillow
